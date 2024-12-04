@@ -29,7 +29,7 @@ def main():
         
         app_path = os.path.join(args.destination, args.name)
 
-        shutil.copytree("./copy_base_vue_app", app_path)
+        shutil.copytree("./base_vue_app", app_path)
 
         os.chdir(app_path)
 
